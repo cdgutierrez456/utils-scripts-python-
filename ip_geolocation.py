@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+# Access token de ipinfo.io
 ACCESS_TOKEN = os.getenv('ACCESS_TOKEN')
 IP_ADDRESS = "190.70.237.123"
 
